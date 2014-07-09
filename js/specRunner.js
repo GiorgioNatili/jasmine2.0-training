@@ -30,7 +30,7 @@ require(['boot'], function(boot) {
 
     var specs = [];
 
-    // specs.push('spec/PlayerSpec');
+    specs.push('spec/PlayerSpec');
 
     require(specs, function(spec) {
 
