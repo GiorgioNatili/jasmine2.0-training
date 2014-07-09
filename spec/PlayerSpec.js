@@ -1,3 +1,5 @@
+define(["js/Player"], function(Player) {
+
 describe("Player", function() {
   var player;
   var song;
@@ -55,4 +57,5 @@ describe("Player", function() {
       }).toThrowError("song is already playing");
     });
   });
+});
 });
